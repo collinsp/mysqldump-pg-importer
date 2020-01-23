@@ -1,0 +1,26 @@
+{
+  "name": "mysqldump-pg-importer",
+  "version": "1.0.0",
+  "description": "Import a mysql dump SQL file into postgres",
+  "main": "index.js",
+  "bin": {
+    "mysqldump-pg-importer": "cmdline.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Philip.M.Collins@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "pg": "^7.14.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/collinsp/mysqldump-pg-importer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/collinsp/mysqldump-pg-importer/issues"
+  },
+  "homepage": "https://github.com/collinsp/mysqldump-pg-importer#readme"
+}
