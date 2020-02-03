@@ -1,7 +1,6 @@
-#############################################################
-MySQL Dump Postgresql Importer
-#############################################################
+# MySQL Dump Postgresql Importer
 
+```javascript
 // install
 npm install mysqldump-pg-importer
 
@@ -55,3 +54,5 @@ let imp
   //imp.filterInsertVal = (mysqlTable, mysqlCol, val, meta) => val
   await imp.execute()
 })().catch( e => { console.log(e); console.log('imp object: ', imp); process.exit(-1); })
+```
+
