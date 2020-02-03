@@ -1,6 +1,6 @@
 # MySQL Dump Postgresql Importer
 
-```
+```console
 // install
 npm install mysqldump-pg-importer
 
