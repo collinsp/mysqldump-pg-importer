@@ -1,6 +1,6 @@
 {
   "name": "mysqldump-pg-importer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Import a mysql dump SQL file into postgres",
   "main": "index.js",
   "bin": {
